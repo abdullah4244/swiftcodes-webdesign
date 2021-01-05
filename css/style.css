@@ -274,14 +274,23 @@ align-items: center;}
     }
    
 .last-section {
+ 
   display: flex;
   justify-content: space-between;
 }
 
 .last-section .section1 {
+  padding: 1rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 1rem;
   width: 45%;
 }
 .last-section .section2 {
+  padding: 1rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 1rem;
   width:45%;
 }
 .heading-primary {
@@ -391,5 +400,13 @@ font-weight: 400; }
 
   .text-align-left {
     font-weight: 500;
-    text-align: left;
+    text-align: center;
+  }
+
+  .last-section p a {
+    text-decoration: none;
+  }
+
+  .last-section p a:hover {
+    text-decoration: underline;
   }
